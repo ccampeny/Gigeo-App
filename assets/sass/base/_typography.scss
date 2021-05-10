@@ -1,0 +1,35 @@
+h1 {
+    font-family: $jost;
+    font-weight: $medium-jost;
+    font-size: $large;
+}
+
+sup {
+    font-family: $jost;
+    font-weight: $light-jost;
+    font-size: $medium;
+}
+
+h2 {
+    font-family: $raleway;
+    font-weight: $bold-raleway;
+    font-size: $medium;
+}
+
+h3 {
+    font-family: $raleway;
+    font-weight: $bold-raleway;
+    font-size: $medium;
+    padding-bottom: 1rem;
+}
+
+h5 {
+    font-family: $raleway;
+    font-weight: $bold-raleway;
+    font-size: $small;
+    padding-top: 1rem;
+}
+
+p {
+    color: $dark-gray
+}

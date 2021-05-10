@@ -1,0 +1,31 @@
+//main.scss # Manifest File
+
+// Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+//Base
+@import 'base/base';
+@import 'base/normalize';
+@import 'base/reset';
+@import 'base/typography';
+
+//Layout
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/main-section';
+@import 'layout/footer';
+@import 'layout/card';
+@import 'layout/grid';
+
+//Components
+@import 'components/buttons';
+@import 'components/inputs';
+@import 'components/thumbnails';
+
+//Pages
+
+//Theme
+
+//Vendors
+@import 'vendors/bootstratp-4.6/bootstrap.scss';

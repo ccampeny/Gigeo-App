@@ -1,0 +1,15 @@
+.titulo__1 {
+    font-size: 5rem;
+}
+
+.navbar-icon {
+    font-size: 1.1rem;
+}
+
+.nav-link {
+    color: $black;
+
+    &:hover {
+        color: $gray !important;
+    }
+}

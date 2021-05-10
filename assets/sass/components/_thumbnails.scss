@@ -1,0 +1,47 @@
+/* COMPONENTS: THUMBNAILS
+   ========================================================================== */
+.thumbnail {
+    border: 1px solid $gray;
+    border-radius: 50%;
+  }
+  
+  /* Size */
+  .thumbnail_tiny {
+    max-width: 80px;
+  }
+  
+  .thumbnail_normal {
+    max-width: 100px;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+  }
+
+  .user-info__summary {
+    padding-left: 1em;
+    position: relative;
+    top: 0.6rem;
+  
+    h2 {
+      margin: 0;
+      font-family: $raleway;
+      font-weight: $bold-raleway;
+      font-size: $medium;
+    }
+  
+    p {
+      margin: 0;
+      font-family: $raleway;
+      font-size: $small;
+      color: $dark-gray;
+    }
+  }
+
+  @media (max-width: $max-sm) {
+      .thumbnail_yuki {
+          justify-content: center;
+      }
+  }

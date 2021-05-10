@@ -1,0 +1,74 @@
+// Color Scheme
+$black: #000000;
+$dark-gray: #646464;
+$gray: #AAAAAA;
+$white: #FFFFFF;
+
+//Button Color
+$aqua: #A2DAE3;
+$aqua-green: #3992a0;
+$salmon: #DF6C66;
+$salmon-red: #b4312b;
+
+// Font Family
+$jost: 'Jost', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+// Font Weight Jost
+$thin-jost: 100;
+$extra-light-jost: 200;
+$light-jost: 300;
+$medium-jost: 500;
+
+// Font Weight Raleway
+$extra-light-raleway: 200;
+$ligh-raleway: 300;
+$regular-raleway: 400;
+$medium-raleway: 500;
+$bold-raleway: 700;
+
+
+// Font Size
+$large: 40px;
+$medium: 25px;
+$small: 15px;
+$x-small: 10px;
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+/*@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+$min-xs: 1px;
+$min-sm: 576px;
+$min-md: 768px;
+$min-lg: 992px;
+$min-xl: 1200px;
+$min-xxl: 1400px;
+
+$max-xs: 575px;
+$max-sm: 767px;
+$max-md: 991px;
+$max-lg: 1199px;
+$max-xl: 1399px;
+$max-xxl: 1800px;
+
+$breakpoints: (
+    'xs' : (min-width: $min-xs),
+    'sm' : (min-width: $min-sm),
+    'md' : (min-width: $min-md),
+    'lg' : (min-width: $min-lg),
+    'xl' : (min-width: $min-xl),
+    'xxl': (min-width: $min-xxl)
+
+) !default;

@@ -1,0 +1,20 @@
+@media (max-width: $max-sm) {
+        .none-mobile,
+        .separate {
+            display: none;
+        }
+
+        h3 {
+            text-align: center;
+        }
+}
+
+.contenido__video img {
+    width: 100%;
+    
+}
+
+p {
+    padding-bottom: 20px;
+}
+

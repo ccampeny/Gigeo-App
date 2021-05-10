@@ -1,0 +1,43 @@
+.button__btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media (max-width: $max-sm) {
+    .button__btn {
+        display: none;
+    }
+}
+
+.button {
+    border: none;
+    color: $white;
+    padding: 12px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 2px;
+    transition-duration: 0.4s;
+    font-family: $raleway;
+    font-weight: $regular-raleway;
+
+    &__aqua {
+      background-color: $aqua;
+  
+      &:hover {
+          background-color: $aqua-green;
+          color: $white;
+      }
+    }
+
+    &__salmon {
+        background-color: $salmon;
+
+        &:hover {
+            background-color: $salmon-red;
+            color: $white;
+        }
+    }
+  }
